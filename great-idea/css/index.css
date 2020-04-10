@@ -64,3 +64,426 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*Webpage Design*/
+.container{
+	width:750px;
+	margin:0 auto;
+}
+
+/*navigation link*/
+.container header nav a {
+	margin: 10px 10px;
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	  }
+
+/*Box for images in header section*/
+.box1{
+	background: white;
+  margin: 40px;
+  color: black;
+  font-style: italic;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+  font-size: 50px;
+  display:block;
+  } 
+  
+    
+  .header{
+	display: inline-block;
+	margin-top: 70px;
+	
+}
+
+  /*round shaped image*/
+  .boximage{
+	  float: right;
+	  border-left: 20px;
+	  margin-top: -350px;
+  }
+
+  
+/*get started button*/
+.header .button{
+	 display: flex;
+	 justify-content: center;
+	 font-size: 20px;
+	 font-style: normal;
+	 border: 5px solid black;
+	 border-width: 1px;
+	 text-align: center;
+	 background-color: white;
+  width: 170px;
+  padding: 10px;
+  margin: 20px;
+  
+	 
+}
+
+/*Features*/
+.container{
+	display: flex;
+	justify-content: space-between;
+	}
+
+.container .Features{
+	width: 5000px;
+    height: 200px;
+  background: white;
+  margin-top: 35px;
+  margin-bottom: -100px;
+}
+
+
+   /*About*/ 
+.container .About{
+	width: 4500px;
+    height: 200px;
+  background: white;
+  margin-top: 35px;
+  margin-left: 50px;
+  margin-bottom: -100px;
+}
+
+.container {
+	border-top:1px solid black;
+	padding: 20px 0;
+	width: 960px;
+	}
+
+/*middle image*/
+
+.img{
+	display: flex;
+	justify-content: flex-start;
+}
+.img .middle-img{
+	width: 960px;
+	float: right;
+  border: 5px solid white;
+   margin-bottom: 20px;
+  margin-left:350px;
+ 
+}
+
+.container1{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	
+	}
+/*service*/
+.container1 .Services{
+	width: 280px;
+    height: 100px;
+  background: white;
+  margin-top: 35px;
+  margin-left: 350px;
+  
+}
+
+/*product*/
+.container1 .Product{
+	width: 280px;
+    height: 100px;
+  background: white;
+  margin-top: -105px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+}
+
+/*vision*/
+.container1 .Vision{
+	width: 280px;
+    height: 100px;
+  background: white;
+  margin-top: -145px;
+  margin-left: 1050px;
+ 
+}
+
+/*contact*/
+.box7{
+	width: 310px;
+	float:left;
+  border: 15px solid white;
+  margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 330px;
+   
+}
+
+.box7 h4{
+	border-top:1px solid black;
+	padding: 20px 0;
+	width: 980px;
+}
+
+/*footer*/
+.box8{
+	width: 290px;
+	float: left;;
+	margin-top: 250px;
+   margin-bottom: 20px;
+   margin-right: 250px;
+}
+
+/*Service Page Style Sheet starts here*/
+
+/*page-size*/
+.service-page{
+	width:930px;
+	margin:0 auto;
+}
+
+/*Service paragraph design*/
+#services{
+	margin-top: 20px;
+	width: 900px;
+	}
+
+/*Line after services paragraph*/
+#services{
+	border-bottom:1px solid black;
+	padding: 20px 0;
+	}	
+
+/*First Box style for Digital Design*/
+.First-Box{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: flex-start;
+}
+.First-Box .DD{
+	height: 220px;
+	width: 400px;
+	background-color:#D3D3D3;
+	color: black;
+	border: 1px solid black;
+	margin: 35px 20px 35px 5px;
+}
+
+.DD h3{
+	margin: 15px;
+}
+
+.DD p{
+	margin: 15px;
+}
+
+.DD button{
+	margin: 10px 15px;
+}
+
+/*Second-Box style for UI*/
+.Second-Box{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: flex-end;
+	
+    }
+
+.Second-Box .UI{
+	height:220px;
+	width: 400px;
+	background-color:#D3D3D3;
+	color: black;
+	border: 1px solid black;
+	margin: -260px 20px 35px -200px;
+	}
+
+.UI h3{
+	margin: 15px;
+}
+
+.UI p{
+	margin: 15px;
+}
+
+.UI button{
+	margin:10px 15px;
+}
+
+/*Third-Box style for Digital Marketing*/
+
+.Third-Box{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-between;
+}
+
+.Third-Box .DM{
+	height: 220px;
+	width: 400px;
+	background-color:#D3D3D3;
+	color: black;
+	border: 1px solid black;
+	margin: 15px 20px 35px 5px;
+}
+
+.DM h3{
+	margin: 15px;
+}
+
+.DM p{
+	margin: 15px;
+}
+
+.DM button{
+	margin: 10px 15px;
+}
+
+/*Forth-Box style for Web Development*/
+.Forth-Box{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: flex-end;
+	
+
+}
+
+.Forth-Box .WD{
+	height:220px;
+	width: 400px;
+	background-color:#D3D3D3;
+	color: black;
+	border: 1px solid black;
+	margin: -260px 20px 35px -200px;
+	}
+
+.WD h3{
+	margin: 15px;
+}
+
+.WD p{
+	margin: 15px;
+}
+
+.WD button{
+	margin:10px 15px;
+}
+
+/*Fifth-Box style for IOS*/
+.Fifth-Box{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-between;
+}
+
+.Fifth-Box .ios{
+	height: 220px;
+	width: 400px;
+	background-color:#D3D3D3;
+	color: black;
+	border: 1px solid black;
+	margin: 15px 20px 35px 5px;
+}
+
+.ios h3{
+	margin: 15px;
+}
+
+.ios p{
+	margin: 15px;
+}
+
+.ios button{
+	margin: 10px 15px;
+}
+
+/*Sixth-Box style for Android Development*/
+.Sixth-Box{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: flex-end;
+	
+
+}
+
+.Sixth-Box .AD{
+	height:220px;
+	width: 400px;
+	background-color:#D3D3D3;
+	color: black;
+	border: 1px solid black;
+	margin: -260px 20px 35px -200px;
+	}
+
+.AD h3{
+	margin: 15px;
+}
+
+.AD p{
+	margin: 15px;
+}
+
+.AD button{
+	margin:10px 15px;
+}
+
+/*Some facts about our services paragraph*/
+.heading {
+	border-top:1px solid black;
+	padding: 20px 0;
+}
+
+/*Content design for facts about services paragraph*/
+.content{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: flex-start;
+}
+
+.content p{
+	height:170px;
+	width: 400px;
+	background-color:white;
+	color: black;
+	margin-top: 10px;
+}
+
+/*last image positioning*/
+.content-image{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: flex-end;
+}
+
+.content-image .services-info-img{
+	height:300px;
+	width: 500px;
+	background-color:white;
+	color: black;
+	margin-top: -300px;
+
+}
+
+/*copyright section*/
+.footer
+{
+	width: 290px;
+	text-align: center;
+	margin-top: 100px;
+   margin-bottom: 20px;
+   margin-right: 250px;
+   margin-left: 260px;
+}
+
+/*navigation section style*/
+.service-page header nav a {
+	margin: 10px 10px;
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	  }
+
+/*bullet section style*/
+.bullet{
+	margin-left: 15px;
+	margin-top: 5px	;
+}	  
